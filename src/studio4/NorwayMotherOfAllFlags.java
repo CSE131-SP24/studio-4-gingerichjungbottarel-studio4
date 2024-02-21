@@ -20,6 +20,12 @@ public class NorwayMotherOfAllFlags {
 		StdDraw.setPenColor(0, 0, 127);
 		StdDraw.filledRectangle(11, 8, 11, 1);
 		StdDraw.filledRectangle(8, 8, 1, 8);
+		StdDraw.setPenColor(StdDraw.WHITE);
+		StdDraw.filledCircle(0.5, 0.55, 0.15);
+		StdDraw.filledRectangle(0.5, 0.4, 0.1, 0.05);
+		StdDraw.setPenColor(StdDraw.BLACK);
+		StdDraw.filledCircle(0.45, 0.55, 0.03);
+		StdDraw.filledCircle(0.55, 0.55, 0.03);
 	}
 
 	public static void norway() {
